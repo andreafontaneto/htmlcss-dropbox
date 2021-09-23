@@ -20,6 +20,12 @@ body{
   margin: 0 auto;
 }
 
+.container2{
+  width: 70%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .btn{
   text-decoration: none;
   padding: 5px 20px;
@@ -139,4 +145,27 @@ body{
 .jumbo-right img{
   width: 100%;
   padding-left: 50px;
+}
+
+/***** HEADER *****/
+
+.container2 h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.container2 input, .container2 span{
+  margin-right: 10px;
+}
+
+.container2 input{
+  margin-bottom: 50px;
+}
+
+/* payment type */
+
+.payment .payment-col{
+  width: 30%;
+  height: 200px;
+  background-color: cornflowerblue;
 }
