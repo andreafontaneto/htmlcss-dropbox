@@ -29,12 +29,19 @@ body{
 .btn{
   text-decoration: none;
   padding: 5px 20px;
-  background-color: #114BFA;
-  color: white;
 }
 
-.medium-blue{
+.big{
   padding: 10px 25px;
+}
+
+.medium{
+  padding: 10px 40px; 
+}
+
+.blue{
+  background-color: #114BFA;
+  color: #ffffff;
 }
 
 /***** HEADER *****/
@@ -154,7 +161,7 @@ body{
   margin-bottom: 50px;
 }
 
-.container2 input, .container2 span{
+.container2 input, .container2 .billing-type{
   margin-right: 10px;
 }
 
@@ -165,7 +172,92 @@ body{
 /* payment type */
 
 .payment .payment-col{
-  width: 30%;
-  height: 200px;
-  background-color: cornflowerblue;
+  border: 1px solid grey;
+  font-size: 14px;
+  float: left;
+}
+
+.payment .left, .payment .center, .payment .right{
+  width: calc((100% / 3) - 2%);
+}
+
+.payment-col .center{
+  margin: 0 1%;
+}
+
+.payment-col .left, .payment-col .right{
+  margin: 0;
+}
+
+.payment-col .top{
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.payment-col .bottom{
+  padding: 0 30px;
+}
+
+.payment-col .bottom h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.payment-col .bottom .price{
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.payment-col .bottom .user span,
+.payment-col .bottom .space span{
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.payment-col .bottom .pay-type{
+  display: block;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.payment-col .bottom .function{
+  margin-bottom: 40px;
+}
+
+#btn-trial{
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.buy-now a{
+  color: #114BFA;
+}
+
+.payment-col .hr-mini{
+  border: 1px solid grey;
+  width: 40px;
+  margin: 40px 0;
+}
+
+.payment-col .bottom .focus-point{
+  margin-bottom: 30px;
+}
+
+.payment-col .bottom ul{
+  list-style: none;
+  margin-left: 15px;
+}
+
+.payment-col .bottom ul li{
+  margin-bottom: 30px;
+}
+
+.payment-col .bottom ul li .fa-li{
+  color: #114BFA;
+  padding: 0 10px;
 }

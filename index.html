@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- LINK FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css" integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css" integrity="sha512-4wfcoXlib1Aq0mUtsLLM74SZtmB73VHTafZAvxIp/Wk9u1PpIsrfmTvK0+yKetghCL8SHlZbMyEcV8Z21v42UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- LINK CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- TITLE -->
@@ -34,7 +34,7 @@
           <li><a href="#">Supporto</a></li>
           <li><a href="#">Contatta l'ufficio vendite</a></li>
           <li><a href="#">Accedi</a></li>
-          <li><a class="btn" href="#">Inizia</a></li>
+          <li><a class="btn blue" href="#">Inizia</a></li>
         </ul>
       </div>
 
@@ -48,7 +48,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. At inventore id maxime doloremque ex deleniti asperiores, corrupti nostrum necessitatibus voluptate, provident atque autem, repudiandae quis. Nostrum modi sapiente debitis necessitatibus.
           </p>
 
-          <a class="btn medium-blue" href="#">Inizia la tua prova gratuita</a>
+          <a class="btn big blue" href="#">Inizia la tua prova gratuita</a>
 
           <p class="delete-sub">
             Annulla in qualsiasi momento
@@ -72,16 +72,212 @@
     <div class="container2">
       <h2>Trova il tuo piano Dropbox Business che fa per te</h2>
 
-      <input type="radio" checked><span>Fatturazione mensile</span>
-      <input type="radio"><span>Fatturazione annuale</span>
+      <input type="radio" checked><span class="billing-type">Fatturazione mensile</span>
+      <input type="radio"><span class="billing-type">Fatturazione annuale</span>
 
-      <div class="payment">
+      <div class="payment clearfix">
+
         <div class="payment-col left">
+          
           <div class="top">
-            
-            <h3>Singolo</h3>
+
+            <i class="far fa-user"></i>
+            <span>Singolo</span>
+
           </div>
+
+          <div class="bottom">
+
+            <h3>Professional</h3>
+            <span class="price">19,99 &euro;</span>
+            <span class="pay-type">/mese</span>
+
+            <div class="user">
+              <i class="far fa-user"></i>
+              <span>1 utente</span>
+            </div>
+
+            <div class="space">
+              <i class="far fa-folder"></i>
+              <span>3TB di spazio di archiviazione sicuro</span>
+            </div>
+
+            <div class="function">
+              <i class="fas fa-pencil-alt"></i>
+              <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+            </div>
+
+            <a id="btn-trial" class="btn medium blue" href="#">Prova gratis per 30 giorni</a>
+
+            <p class="buy-now">
+              oppure <a href="#">acquista ora</a>
+            </p>
+
+            <hr class="hr-mini">
+
+            <h4 class="focus-point">Punti salienti del piano</h4>
+
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Invia file fino a 100GB con Dropbox Transfer
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Cartelle offline su dispositivi mobili
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Pulizia remota dell'account
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Filigrana documento
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Assistenza prioritaria via email e chat
+              </li>
+            </ul>
+
+          </div>
+
         </div>
+
+        <div class="payment-col center">
+          
+          <div class="top">
+
+            <i class="far fa-user"></i>
+            <span>Singolo</span>
+
+          </div>
+
+          <div class="bottom">
+
+            <h3>Professional</h3>
+            <span class="price">19,99 &euro;</span>
+            <span class="pay-type">/mese</span>
+
+            <div class="user">
+              <i class="far fa-user"></i>
+              <span>1 utente</span>
+            </div>
+
+            <div class="space">
+              <i class="far fa-folder"></i>
+              <span>3TB di spazio di archiviazione sicuro</span>
+            </div>
+
+            <div class="function">
+              <i class="fas fa-pencil-alt"></i>
+              <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+            </div>
+
+            <a id="btn-trial" class="btn medium blue" href="#">Prova gratis per 30 giorni</a>
+
+            <p class="buy-now">
+              oppure <a href="#">acquista ora</a>
+            </p>
+
+            <hr class="hr-mini">
+
+            <h4 class="focus-point">Punti salienti del piano</h4>
+
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Invia file fino a 100GB con Dropbox Transfer
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Cartelle offline su dispositivi mobili
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Pulizia remota dell'account
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Filigrana documento
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Assistenza prioritaria via email e chat
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="payment-col right">
+          
+          <div class="top">
+
+            <i class="far fa-user"></i>
+            <span>Singolo</span>
+
+          </div>
+
+          <div class="bottom">
+
+            <h3>Professional</h3>
+            <span class="price">19,99 &euro;</span>
+            <span class="pay-type">/mese</span>
+
+            <div class="user">
+              <i class="far fa-user"></i>
+              <span>1 utente</span>
+            </div>
+
+            <div class="space">
+              <i class="far fa-folder"></i>
+              <span>3TB di spazio di archiviazione sicuro</span>
+            </div>
+
+            <div class="function">
+              <i class="fas fa-pencil-alt"></i>
+              <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+            </div>
+
+            <a id="btn-trial" class="btn medium blue" href="#">Prova gratis per 30 giorni</a>
+
+            <p class="buy-now">
+              oppure <a href="#">acquista ora</a>
+            </p>
+
+            <hr class="hr-mini">
+
+            <h4 class="focus-point">Punti salienti del piano</h4>
+
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Invia file fino a 100GB con Dropbox Transfer
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Cartelle offline su dispositivi mobili
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Pulizia remota dell'account
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Filigrana documento
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Assistenza prioritaria via email e chat
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
       </div>
 
     </div>
