@@ -171,19 +171,15 @@ body{
   padding-left: 50px;
 }
 
-/***** HEADER *****/
+/***** MAIN *****/
 
-.container2 h2{
+.plan h2{
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-.container2 input, .container2 .billing-type{
-  margin-right: 10px;
-}
-
-.container2 input{
-  margin-bottom: 50px;
+.plan input, .plan .billing-type{
+  margin: 0 10px 50px 0;
 }
 
 /* payment type */
@@ -339,11 +335,18 @@ body{
 
 /* business */
 
+.business .bus-row{
+  margin-bottom: 50px;
+}
+
 .business .bus-row .benefit{
-  width: 30%;
+  width: calc((100% / 3) - 80px);
   float: left;
-  margin: auto;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+}
+
+.business .bus-row .benefit.center{
+  margin: 0 40px;
 }
 
 .business .bus-row .benefit img{
