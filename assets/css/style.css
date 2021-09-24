@@ -28,10 +28,11 @@ body{
 
 .btn{
   text-decoration: none;
+  text-align: center;
   padding: 5px 20px;
 }
 
-.big{
+.small{
   padding: 10px 25px;
 }
 
@@ -39,9 +40,20 @@ body{
   padding: 10px 40px; 
 }
 
+.large{
+  display: block;
+  padding: 10px 0;
+}
+
 .blue{
   background-color: #114BFA;
   color: #ffffff;
+}
+
+.white{
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
 }
 
 /***** HEADER *****/
@@ -52,6 +64,10 @@ body{
   width: 100vw;
   height: 82px;
   background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .nav-bar-left{
@@ -113,6 +129,7 @@ body{
   height: 80vh;
   background-color: #A7C5E0;
   margin-bottom: 250px;
+  margin-top: 82px;
 }
 
 .jumbotron h1{
@@ -171,9 +188,17 @@ body{
 
 /* payment type */
 
-.payment .payment-col{
+.payment{
+  margin-bottom: 40px;
+}
+
+.payment .payment-col, .enterprise{
   border: 1px solid grey;
   font-size: 14px;
+}
+
+.payment .payment-col{
+  padding-bottom: 200px;
   float: left;
 }
 
@@ -189,18 +214,18 @@ body{
   margin: 0;
 }
 
-.payment-col .top{
+.payment-col .top, .enterprise .top{
   text-align: center;
   border-bottom: 1px solid grey;
   padding: 10px 0;
   margin-bottom: 30px;
 }
 
-.payment-col .bottom{
+.payment-col .bottom, .enterprise .bottom{
   padding: 0 30px;
 }
 
-.payment-col .bottom h3{
+.payment-col .bottom h3, .enterprise .bottom .bottom-left h3{
   font-size: 25px;
   margin-bottom: 15px;
 }
@@ -261,3 +286,54 @@ body{
   color: #114BFA;
   padding: 0 10px;
 }
+
+/* enterprise */
+
+.enterprise{
+  padding-bottom: 30px;
+  margin-bottom: 200px;
+}
+
+.enterprise .bottom .bottom-left{
+  width: 70%;
+  float: left;
+}
+
+.enterprise .bottom .bottom-left h4{
+  margin-bottom: 10px;
+}
+
+.enterprise .bottom .bottom-right{
+  width: 30%;
+  float: left;
+}
+
+/* partner */
+
+.partner{
+  margin-bottom: 150px;
+}
+
+.partner .partner-left, .partner .partner-right{
+  width: 50%;
+  float: left;
+}
+
+.partner .partner-right{
+  padding-left: 40px;
+}
+
+.partner .partner-left img{
+  width: 100%;
+}
+
+.partner .partner-right h3{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px 0 30px 0;
+}
+
+.partner .partner-right p{
+  margin-bottom: 40px;
+}
+
