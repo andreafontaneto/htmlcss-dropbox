@@ -199,15 +199,8 @@ body{
 }
 
 .payment .left, .payment .center, .payment .right{
-  width: calc((100% / 3) - 2%);
-}
-
-.payment-col .center{
-  margin: 0 1%;
-}
-
-.payment-col .left, .payment-col .right{
-  margin: 0;
+  width: calc((100% / 3) - 60px);
+  margin: 0 30px;
 }
 
 .payment-col .top, .enterprise .top{
@@ -350,12 +343,8 @@ body{
 
 .business .bus-row .benefit{
   width: calc((100% / 3) - 80px);
-  float: left;
-  /* background-color: cornflowerblue; */
-}
-
-.business .bus-row .benefit.center{
   margin: 0 40px;
+  float: left;
 }
 
 .business .bus-row .benefit img{
