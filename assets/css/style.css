@@ -580,3 +580,10 @@ body{
   border-bottom: 1px solid black;
 }
 
+/***** FOOTER *****/
+
+footer{
+  width: 100vw;
+  background-color: black;
+  color: #ffffff;
+}
