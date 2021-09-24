@@ -424,7 +424,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  fill: #ffffff;
+  filter: invert(1);
 }
 
 .cl-cards-left, .cl-cards-center, .cl-cards-right{
@@ -452,6 +452,11 @@ body{
   height: 200px;
   overflow: auto;
   padding-bottom: 50px;
+}
+
+#sign{
+  height: 70px;
+  padding: 20px 0;
 }
 
 .cl-cards-left .cl-card1,
@@ -575,4 +580,26 @@ footer{
   width: 100vw;
   background-color: black;
   color: #ffffff;
+  font-size: 14px;
+  padding: 100px 0;
+}
+
+footer .footer-link-list{
+  width: calc((100% / 5) - 20px);
+  margin: 0 10px;
+  float: left;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  margin-bottom: 10px;
+}
+
+footer .list-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
