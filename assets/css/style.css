@@ -450,7 +450,7 @@ body{
 
 .cl-cards-center{
   width: 50%;
-  background-color: darkkhaki;
+  background-color: #F2F2F2;
   padding: 50px;
 }
 
@@ -496,4 +496,35 @@ body{
 .cl-cards-left .cl-card4, .cl-cards-right .cl-card4{
   bottom: 0;
   right: 0;
+}
+
+/* call to action */
+
+.calltoaction{
+  width: 100vw;
+  height: 350px;
+  background-color: #A7C5E0;
+  padding: 120px 0;
+}
+
+.calltoaction .cta-left, .calltoaction .cta-right{
+  float: left;
+}
+
+.calltoaction .cta-left{
+  width: 70%;
+}
+
+.calltoaction .cta-right{
+  width: 30%;
+}
+
+.calltoaction .cta-left h2{
+  font-size: 40px;
+  color: #4B0221;
+}
+
+.calltoaction .cta-right a{
+  color: #000000;
+  border: 0;
 }
