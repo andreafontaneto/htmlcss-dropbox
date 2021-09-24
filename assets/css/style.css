@@ -32,25 +32,25 @@ body{
   padding: 5px 20px;
 }
 
-.small{
+.btnsmall{
   padding: 10px 25px;
 }
 
-.medium{
+.btnmedium{
   padding: 10px 40px; 
 }
 
-.large{
+.btnlarge{
   display: block;
   padding: 10px 0;
 }
 
-.blue{
+.btnblue{
   background-color: #114BFA;
   color: #ffffff;
 }
 
-.white{
+.btnwhite{
   background-color: #ffffff;
   color: #000000;
   border: 1px solid black;
@@ -335,6 +335,15 @@ body{
 
 /* business */
 
+.business{
+  margin-bottom: 200px;
+}
+
+.business h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
 .business .bus-row{
   margin-bottom: 50px;
 }
@@ -358,3 +367,121 @@ body{
   margin: 10px 0 20px 0;
 }
 
+/* clients */
+
+.clients{
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.clients h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.clients a{
+  color: #114BFA;
+}
+
+/* clients cards */
+
+.clients-cards{
+  height: 60vh;
+  width: 100vw;
+}
+
+.green{
+  background-color: #95CB8C;
+}
+
+.bordeaux{
+  background-color: #4C0122;
+}
+
+.blue{
+  background-color: #2280C0;
+}
+
+.red{
+  background-color: #F00021;
+}
+
+.brick{
+  background-color: #C6001E;
+}
+
+.sky{
+  background-color: #A7C5E0;
+}
+
+.darkblue{
+  background-color: #0D196C;
+}
+
+.yellow{
+  background-color: #FCD036;
+}
+
+.clients-cards .box-img{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.clients-cards object{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #ffffff;
+}
+
+.cl-cards-left, .cl-cards-center, .cl-cards-right{
+  float: left;
+  height: 100%;
+}
+
+.cl-cards-left, .cl-cards-right{
+  width: 25%;
+  position: relative;
+}
+
+.cl-cards-center{
+  width: 50%;
+  background-color: darkkhaki;
+}
+
+.cl-cards-left .cl-card1,
+.cl-cards-left .cl-card2,
+.cl-cards-left .cl-card3,
+.cl-cards-left .cl-card4,
+.cl-cards-right .cl-card1,
+.cl-cards-right .cl-card2,
+.cl-cards-right .cl-card3,
+.cl-cards-right .cl-card4{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+.cl-cards-left .cl-card1, .cl-cards-right .cl-card1{
+  top: 0;
+  left: 0;
+}
+
+.cl-cards-left .cl-card2, .cl-cards-right .cl-card2{
+  top: 0;
+  right: 0;
+}
+
+.cl-cards-left .cl-card3, .cl-cards-right .cl-card3{
+  bottom: 0;
+  left: 0;
+}
+
+.cl-cards-left .cl-card4, .cl-cards-right .cl-card4{
+  bottom: 0;
+  right: 0;
+}
