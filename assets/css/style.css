@@ -462,7 +462,7 @@ body{
   width: 100%;
   height: 200px;
   overflow: auto;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .cl-cards-left .cl-card1,
@@ -528,3 +528,55 @@ body{
   color: #000000;
   border: 0;
 }
+
+/* faq */
+
+.faq{
+  margin-bottom: 100px;
+}
+
+.faq h2{
+  margin: 100px 0 50px 0;
+}
+
+.faq .faq-section{
+  border-top: 1px solid black;
+  padding: 10px 30px 10px 0;
+}
+
+.faq .faq-section .box-text{
+  width: 80%;
+  float: left;
+}
+
+.faq .faq-section .box-text h4{
+  margin: 20px 0;
+}
+
+.faq .faq-section .box-text p{
+  margin-bottom: 20px;
+}
+
+.faq .faq-section .faq-arrow{
+  width: 20%;
+  float: right;
+  margin: 20px 0;
+  text-align: right;
+}
+
+.faq-section .faq-arrow .fa-chevron-up, .faq-section p{
+  display: none;
+}
+
+.faq-section:hover .fa-chevron-up, .faq-section:hover p{
+  display: block;
+}
+
+.faq-section:hover .fa-chevron-down{
+  display: none;
+}
+
+.faq .faq-section.last{
+  border-bottom: 1px solid black;
+}
+
