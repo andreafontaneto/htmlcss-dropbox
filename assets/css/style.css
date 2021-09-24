@@ -337,3 +337,21 @@ body{
   margin-bottom: 40px;
 }
 
+/* business */
+
+.business .bus-row .benefit{
+  width: 30%;
+  float: left;
+  margin: auto;
+  background-color: cornflowerblue;
+}
+
+.business .bus-row .benefit img{
+  width: 100%;
+}
+
+.business .bus-row .benefit h3{
+  font-size: 25px;
+  margin: 10px 0 20px 0;
+}
+
