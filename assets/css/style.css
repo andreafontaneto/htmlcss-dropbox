@@ -50,10 +50,18 @@ body{
   color: #ffffff;
 }
 
+.btnblue:hover{
+  background-color: #336FFB;
+}
+
 .btnwhite{
   background-color: #ffffff;
   color: #000000;
   border: 1px solid black;
+}
+
+.btnwhite:hover{
+  background-color: #F4F2F2;
 }
 
 /***** HEADER *****/
@@ -111,16 +119,15 @@ body{
 
 .nav-bar-left ul li a, .nav-bar-right ul li a{
   text-decoration: none;
-  color: black;
 }
 
 .nav-bar-left ul li:hover, .nav-bar-right ul li:hover{
   border-bottom: 2px solid black;
 }
 
-/* .nav-bar-right ul li.btn:hover{
+.nav-bar-right ul li.last:hover{
   border-bottom: none;
-} */
+}
 
 /* jumbotron */
 
@@ -169,6 +176,9 @@ body{
 .jumbo-right img{
   width: 100%;
   padding-left: 50px;
+  /* position: relative;   <--- ALTERNATIVA
+  left: 0;
+  bottom: -10px; */
 }
 
 /***** MAIN *****/
@@ -225,12 +235,12 @@ body{
   margin-bottom: 10px;
 }
 
-.payment-col .bottom .user span,
+/* .payment-col .bottom .user span,
 .payment-col .bottom .space span{
   display: inline-block;
   font-size: 14px;
   margin-bottom: 25px;
-}
+} */
 
 .payment-col .bottom .pay-type{
   display: block;
@@ -272,8 +282,11 @@ body{
 }
 
 .payment-col .bottom ul li .fa-li{
-  color: #114BFA;
   padding: 0 10px;
+}
+
+.payment-col .bottom ul li .fa-li.check{
+  color: #114BFA;
 }
 
 /* enterprise */
@@ -383,6 +396,10 @@ body{
   background-color: #95CB8C;
 }
 
+.green:hover{
+  border: 8px solid #C9E5C3;
+}
+
 .bordeaux{
   background-color: #4C0122;
 }
@@ -418,7 +435,7 @@ body{
   position: relative;
 }
 
-.clients-cards object{
+.clients-cards .cl-card-img{
   width: 60%;
   position: absolute;
   top: 50%;
@@ -434,7 +451,6 @@ body{
 
 .cl-cards-left, .cl-cards-right{
   width: 25%;
-  position: relative;
 }
 
 .cl-cards-center{
@@ -443,8 +459,9 @@ body{
   padding: 50px;
 }
 
-.cl-cards-center img{
+#dit-logo{
   width: 20%;
+  filter: none;
 }
 
 .cl-cards-center p{
@@ -469,27 +486,7 @@ body{
 .cl-cards-right .cl-card4{
   width: 50%;
   height: 50%;
-  position: absolute;
-}
-
-.cl-cards-left .cl-card1, .cl-cards-right .cl-card1{
-  top: 0;
-  left: 0;
-}
-
-.cl-cards-left .cl-card2, .cl-cards-right .cl-card2{
-  top: 0;
-  right: 0;
-}
-
-.cl-cards-left .cl-card3, .cl-cards-right .cl-card3{
-  bottom: 0;
-  left: 0;
-}
-
-.cl-cards-left .cl-card4, .cl-cards-right .cl-card4{
-  bottom: 0;
-  right: 0;
+  float: left;
 }
 
 /* call to action */
