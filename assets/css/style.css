@@ -212,7 +212,7 @@ h3{
 }
 
 .payment .payment-col, .enterprise{
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   font-size: 14px;
 }
 
@@ -228,7 +228,7 @@ h3{
 
 .payment-col .top, .enterprise .top{
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
   padding: 10px 0;
   margin-bottom: 30px;
 }
@@ -266,7 +266,7 @@ h3{
 }
 
 .hr-mini{
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   width: 40px;
   margin: 40px 0;
 }
