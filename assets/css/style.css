@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after{
   content:'';
   display: table;
   clear: both;
-}
-
-body{
-  font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -76,7 +76,11 @@ h3{
   background-color: #F4F2F2;
 }
 
-/***** HEADER *****/
+
+
+/*============================ 
+HEADER
+=============================*/
 
 /* menu */
 
@@ -195,7 +199,11 @@ h3{
   bottom: -10px; */
 }
 
-/***** MAIN *****/
+
+
+/*============================ 
+MAIN
+=============================*/
 
 .plan h2{
   margin-bottom: 50px;
@@ -568,7 +576,11 @@ h3{
   border-bottom: 1px solid black;
 }
 
-/***** FOOTER *****/
+
+
+/*============================ 
+FOOTER
+=============================*/
 
 footer{
   width: 100vw;
