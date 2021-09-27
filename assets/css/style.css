@@ -253,10 +253,8 @@ h3{
   margin-bottom: 40px;
 }
 
-#btn-trial{
-  display: block;
-  text-align: center;
-  margin-bottom: 25px;
+.buy-now{
+  margin-top: 40px;
 }
 
 .buy-now a{
