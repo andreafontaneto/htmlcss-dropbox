@@ -100,6 +100,10 @@ h3{
   float: right;
 }
 
+.nav-bar-left>a{
+  text-decoration: none;  /* <--- toglie un difetto vicino a Perchè Dropbox? */
+}
+
 .nav-bar-left img{
   vertical-align: text-bottom;
   margin: 0 50px 0 30px;
