@@ -149,6 +149,43 @@ HEADER
   border-bottom: none;
 }
 
+/* dropdown */
+
+.nav-bar-right .support{
+  position: relative;
+}
+
+.nav-bar-right .support-dropdown{
+  display: none;
+}
+
+.nav-bar-right .support:hover .support-dropdown{
+  display: block;
+  position: absolute;
+  top: 82px;
+  left: -30px;
+}
+
+.nav-bar-right .support-dropdown ul li{
+  display: block;
+  width: 250px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+.nav-bar-right .support-dropdown li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-bar-right .support-dropdown li:hover{
+  background-color: lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
 /* jumbotron */
 
 .jumbotron{
