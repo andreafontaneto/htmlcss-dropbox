@@ -168,12 +168,12 @@ HEADER
 
 .nav-bar-right .support-dropdown ul li{
   display: block;
-  width: 250px;
-  height: 50px;
+  width: 270px;
+  height: 70px;
   background-color: #ffffff;
   text-align: left;
-  line-height: 50px;
-  padding-left: 10px;
+  line-height: 70px;
+  padding-left: 20px;
 }
 
 .nav-bar-right .support-dropdown li a{
@@ -573,7 +573,7 @@ MAIN
 }
 
 .faq .faq-section{
-  border-top: 1px solid black;
+  border-top: 1px solid lightgray;
   padding: 10px 30px 10px 0;
 }
 
@@ -610,7 +610,7 @@ MAIN
 }
 
 .faq .faq-section.last{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
 }
 
 
