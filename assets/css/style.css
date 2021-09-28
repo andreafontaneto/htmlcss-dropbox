@@ -497,7 +497,7 @@ MAIN
 }
 
 .cl-cards-center{
-  width: 40vw;
+  width : calc(100% - 60vw);
   height: 30vw;
   background-color: #F2F2F2;
   padding: 50px;
